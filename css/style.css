@@ -172,6 +172,10 @@ aside h3 {
     text-align: center;
 }
 
+#whymxelcontact h3 {
+	text-align: left;
+}
+
 .contactdetails {
     height: 50px;
 }
