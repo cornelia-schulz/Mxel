@@ -1,0 +1,364 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+header {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#logo {
+    width: 20%;
+    float: left;
+}
+
+#logo, #branding {
+    display: none;
+}
+
+a h1 {
+    text-decoration: none;
+    color: white;
+    font-size: 3rem;
+    margin-top: 0.1em;
+    float: left;
+    clear: right;
+    margin-bottom: 0px;
+}
+
+h2 {
+    clear: both;
+    text-decoration: none;
+    color: white;
+    font-style: italic;
+}
+
+.contact {
+    font-size: 1.5em;
+    padding-top: 1.5%;
+    margin-bottom: 2%;
+    clear: left;
+    float: left;
+}
+
+.contact a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.contact a:hover {
+    color: #336633;
+}
+
+.branding {
+    display: block;
+    width: 100%;
+}
+
+#topnav {
+    clear: both;
+    font-size: 1.3em;
+    padding: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-transform: uppercase;
+}
+
+#topnav a {
+    text-decoration: none;
+    color: white;
+    margin-right: 15px;
+    margin-left: 15px;
+    line-height: 1.5em;
+}
+
+#topnav a:hover {
+    color: #336633;
+}
+
+#topnav ul {
+    margin-top: 2%;
+    margin-bottom: 4%;
+}
+
+#topnav li {
+    width: 100%;
+    border-bottom: 1px solid #336633;
+}
+
+#menuicon {
+    height: 2em;
+    float: right;
+    padding-right: 4%;
+    padding-bottom: 2%;
+    padding-top: 5%;
+}
+
+main {
+    padding: 5%;
+}
+
+.van {
+    width: 100%;
+    margin: 0 auto;
+    border: 2px solid white;
+    overflow: hidden;
+}
+
+.vantext, .vantextservices {
+    display: none;
+}
+
+#van {
+    margin-bottom: -1%;
+    width: 100%;
+    height: 100%;
+}
+
+.logo {
+    width: 10%;
+}
+
+#maincontent {
+    padding-top: 2%;
+}
+
+#maincontactcontent {
+    padding-top: 5%;
+}
+
+.middle {
+    vertical-align: middle;
+}
+
+#maincontactcontent a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+#maincontactcontent a:hover {
+    color: #336633;
+}
+
+#maincontentservices p a {
+    color: #336633;
+}
+
+#maincontentservices ul li {
+    list-style-image: url('../images/arrows3.png');
+}
+
+aside ul li {
+    list-style-image: url('../images/arrows3.png');
+    padding-bottom: 2%;
+}
+
+aside {
+    padding-top: 2%;
+    font-weight: 600;
+}
+
+aside h3 {
+    font-size: 1.6em;
+    text-align: center;
+}
+
+.contactdetails {
+    height: 50px;
+}
+
+footer {
+    border: 1px solid #336633;
+    line-height: 2em;
+    width: 90%;
+    margin: 0 auto;
+    clear: both;
+    font-size: 0.8rem;
+}
+
+footer p {
+    float: right;
+
+}
+
+@media screen and (min-width: 600px){
+    .container {
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 900px){
+    .container {
+        width: 80%;
+    }
+
+    .contact {
+        clear: none;
+}
+
+    #topnav {
+        border-color: #336633;
+        border-style: solid;
+        border-top-width: 1px;
+        border-bottom-width: 1px;
+        border-right-width: 0;
+        border-left-width:0;
+        padding: 0;
+        margin-top: 2%;
+    }
+
+    #topnav a {
+        line-height: 0;
+    }
+
+    #topnav ul {
+        margin-bottom: 2%;
+    }
+
+    #maincontent {
+        width: 70%;
+        float: left;
+    }
+
+    #maincontactcontent {
+        width: 60%;
+        float: left;
+    }
+
+    #whymxel {
+    width: 25%;
+    margin-left: 75%;
+    }
+
+    #whymxelcontact {
+        width: 40%;
+        margin-left: 60%;
+    }
+
+    #maincontactcontent a {
+    padding-left: 10%;
+    }
+
+    #logo {
+        display: inline;
+    }
+
+    #branding {
+        display: inline-block;
+    }
+
+    .branding {
+        width: 68%;
+        display: inline-block;
+        margin-left: -3%;
+    }
+
+    .contact {
+        float: right;
+        text-align: right;
+    }
+
+    #topnav ul li {
+        display: inline;
+        border-bottom-width: 0;
+    }
+
+    #topnav li {
+    width: 100%;
+    border-bottom: 1px solid #336633;
+}
+}
+
+@media screen and (min-width: 1068px) {
+    .van {
+        overflow: hidden;
+        height: 20em;
+    }
+
+    #van {
+        height: 100%;
+        width: auto;
+        float: left;
+    }
+
+    .vantext {
+        display: block;
+        font-size: 2em;
+        text-align: center;
+    }
+
+    #maincontentservices {
+        display: none;
+    }
+
+    .vantextservices {
+        display: block;
+        font-size: 1em;
+        margin-left: 60%;
+        text-decoration: none;
+        padding-left: 12%;
+    }
+
+    .vantextservices ul li {
+        list-style-type: none;
+    }
+
+    .vantextservices ul {
+        padding: 0;
+    }
+
+    .vantextservices h3 {
+        font-size: 1em;
+        margin-top: 1%;
+    }
+
+    .vantextservices p a {
+        display: none;
+    }
+
+    .contact a {
+        font-size: 1.7rem;
+    }
+
+    .branding {
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 1157px) {
+    .vantextservices ul li {
+        list-style-image: url('../images/arrows3.png');
+        margin-left: 10%;
+    }
+
+    .vantextservices {
+        padding-left: 5%;
+    }
+
+}
+
+@media screen and (min-width: 1304px) {
+    a h1 {
+        font-size: 4em;
+    }
+
+    .vantextservices {
+        padding-left: 0;
+    }
+
+    .vantextservices p a {
+        display: inline;
+        color: #336633;
+    }
+
+
+}
